@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car shop</title>
+    <link rel="stylesheet" href="test4.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="container">
+            <span class="logo">Auto82</span>
+            <nav>
+                <ul>
+                    <li><a href="index.html">О нас</a></li>
+                    <li><a href="tech.support.html">Тех.Поддержка</a></li>
+                    <li class="active"><a href="catalog.html">Каталог</a></li>
+                    <li><a href="clients.html">Клиентам</a></li>
+                    <li class="btn cart-btn">
+                        <a href="cart.html">
+                            <img src="img/shopcart.png" alt="Корзина" class="btn-icon">
+                            Корзина
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="item"></div>
+            <div class="item-char">
+                <img src="img/disk.png">
+                <div class="table">
+                <h1>6R0615301 VAG Диск тормозной вентилируемый</h1>
+                <h2>Характеристики:</h2>
+                <p>Стоимость: 2500</p>
+                <button class="btn" onclick="window.cartManager.addToCart('3', 1)" class="add-to-cart-btn">
+                    <i class="fas fa-cart-plus"></i> Добавить 1 шт. в корзину</button>
+                <script src="./script.js"></script>
+            </div>
+        </div>
+    </div>   
+        
+    <footer>
+        <div class="footer-container container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <span class="footer-logo">Auto82</span>
+                    <p>ООО "Auto82" - компания, занимающаяся розничной продажей запчастей, расходных материалов, аксессуаров и комплектующих для автомобилей иностранного производства. В нашем ассортименте продукция ведущих европейских, корейских, японских марок, а так же большой выбор неоригинальных автомобильных запчастей.</p>
+                    <p>Мы предлагаем быстрый и удобный сервис по поиску, подбору и заказу необходимых вам запчастей, сезонную систему скидок и максимально короткие сроки доставки.</p>
+                </div> 
+                <div class="footer-column">
+                    <h4>Клиентам</h4>
+                    <ul class="footer-menu">
+                        <li><a href="#">О компании</a></li>
+                        <li><a href="#">Покупателям</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Статьи</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Связаться с нами</h4>
+                    <div class="contact-info">
+                        <p><strong>Telegram:</strong> @auto82_support</p>
+                        <p><strong>Телефон:</strong> +7 (978) 959-55-99</p>
+                        <p><strong>Email:</strong> info@auto82.ru</p>
+                        <p><strong>Адрес:</strong> г. Москва, ул. Автозапчастей, д. 82</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="footer-bottom">
+                <p>ИП Вася Пупкин Тагирович, ИНН 88888888</p>
+                <p class="copyright">© 2024 Auto82. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>   
+
+</body>
+
+</html>

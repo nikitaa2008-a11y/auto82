@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+table {
+    box-sizing: border-box;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    user-select: none;
+}
+
+table tr,
+table td {
+    margin: 10px;
+    padding: 10px 15px;
+    border-bottom: 1px solid #c0c0c0;
+}
